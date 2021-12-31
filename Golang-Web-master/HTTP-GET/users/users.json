@@ -1,0 +1,193 @@
+{
+ "code": 200,
+ "meta": {
+  "pagination": {
+   "total": 1511,
+   "pages": 76,
+   "page": 1,
+   "limit": 20
+  }
+ },
+ "data": [
+  {
+   "id": 14,
+   "name": "Fr. Kashyap ",
+   "email": "kashyap@jaskolski.com",
+   "gender": "Female",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:04.229+05:30",
+   "updated_at": "2021-02-02T15:28:02.127+05:30"
+  },
+  {
+   "id": 15,
+   "name": "Swarnalata Mehrotra",
+   "email": "mehrotra_swarnalata@feest-yundt.name",
+   "gender": "Female",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:04.248+05:30",
+   "updated_at": "2021-02-02T03:50:04.248+05:30"
+  },
+  {
+   "id": 16,
+   "name": "Lucky",
+   "email": "dwaipayana_achari@kub.io",
+   "gender": "Male",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:04.274+05:30",
+   "updated_at": "2021-02-02T13:29:01.932+05:30"
+  },
+  {
+   "id": 135,
+   "name": "Miss Chatur Desai",
+   "email": "miss_chatur_desai@carter-will.io",
+   "gender": "Male",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.13+05:30",
+   "updated_at": "2021-02-02T03:50:06.13+05:30"
+  },
+  {
+   "id": 136,
+   "name": "Baalaaditya Mehrotra",
+   "email": "mehrotra_baalaaditya@adams.info",
+   "gender": "Male",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.139+05:30",
+   "updated_at": "2021-02-02T03:50:06.139+05:30"
+  },
+  {
+   "id": 137,
+   "name": "Paramartha Shukla",
+   "email": "shukla_paramartha@kassulke.com",
+   "gender": "Male",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.148+05:30",
+   "updated_at": "2021-02-02T03:50:06.148+05:30"
+  },
+  {
+   "id": 138,
+   "name": "Rajinder Iyer",
+   "email": "iyer_rajinder@brekke.net",
+   "gender": "Male",
+   "status": "Inactive",
+   "created_at": "2021-02-02T03:50:06.175+05:30",
+   "updated_at": "2021-02-02T03:50:06.175+05:30"
+  },
+  {
+   "id": 139,
+   "name": "Chitraksh Ahuja",
+   "email": "chitraksh_ahuja@cremin-langosh.net",
+   "gender": "Female",
+   "status": "Inactive",
+   "created_at": "2021-02-02T03:50:06.179+05:30",
+   "updated_at": "2021-02-02T03:50:06.179+05:30"
+  },
+  {
+   "id": 140,
+   "name": "Dhatri Prajapat",
+   "email": "dhatri_prajapat@daugherty.biz",
+   "gender": "Female",
+   "status": "Inactive",
+   "created_at": "2021-02-02T03:50:06.195+05:30",
+   "updated_at": "2021-02-02T03:50:06.195+05:30"
+  },
+  {
+   "id": 141,
+   "name": "Agnimitra Khanna",
+   "email": "agnimitra_khanna@kirlin-ebert.net",
+   "gender": "Male",
+   "status": "Inactive",
+   "created_at": "2021-02-02T03:50:06.197+05:30",
+   "updated_at": "2021-02-02T03:50:06.197+05:30"
+  },
+  {
+   "id": 142,
+   "name": "Prema Iyer",
+   "email": "prema_iyer@daniel.io",
+   "gender": "Female",
+   "status": "Inactive",
+   "created_at": "2021-02-02T03:50:06.205+05:30",
+   "updated_at": "2021-02-02T03:50:06.205+05:30"
+  },
+  {
+   "id": 143,
+   "name": "Tejas Deshpande",
+   "email": "tejas_deshpande@lockman.co",
+   "gender": "Male",
+   "status": "Inactive",
+   "created_at": "2021-02-02T03:50:06.207+05:30",
+   "updated_at": "2021-02-02T03:50:06.207+05:30"
+  },
+  {
+   "id": 144,
+   "name": "Durgeshwari Guha",
+   "email": "guha_durgeshwari@rogahn.org",
+   "gender": "Female",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.221+05:30",
+   "updated_at": "2021-02-02T03:50:06.221+05:30"
+  },
+  {
+   "id": 145,
+   "name": "Uma Menon",
+   "email": "uma_menon@ernser.name",
+   "gender": "Female",
+   "status": "Inactive",
+   "created_at": "2021-02-02T03:50:06.233+05:30",
+   "updated_at": "2021-02-02T03:50:06.233+05:30"
+  },
+  {
+   "id": 146,
+   "name": "Mr. Anand Tandon",
+   "email": "mr_anand_tandon@kautzer.co",
+   "gender": "Male",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.257+05:30",
+   "updated_at": "2021-02-02T03:50:06.257+05:30"
+  },
+  {
+   "id": 147,
+   "name": "Gautama Bandopadhyay",
+   "email": "gautama_bandopadhyay@bruen-skiles.name",
+   "gender": "Male",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.273+05:30",
+   "updated_at": "2021-02-02T03:50:06.273+05:30"
+  },
+  {
+   "id": 148,
+   "name": "Bilwa Pothuvaal",
+   "email": "bilwa_pothuvaal@corwin.io",
+   "gender": "Female",
+   "status": "Inactive",
+   "created_at": "2021-02-02T03:50:06.281+05:30",
+   "updated_at": "2021-02-02T03:50:06.281+05:30"
+  },
+  {
+   "id": 149,
+   "name": "Miss Deb Butt",
+   "email": "miss_butt_deb@dare.org",
+   "gender": "Female",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.3+05:30",
+   "updated_at": "2021-02-02T03:50:06.3+05:30"
+  },
+  {
+   "id": 150,
+   "name": "Sloka Achari",
+   "email": "achari_sloka@ebert.biz",
+   "gender": "Male",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.325+05:30",
+   "updated_at": "2021-02-02T03:50:06.325+05:30"
+  },
+  {
+   "id": 151,
+   "name": "Minakshi Chopra LLD",
+   "email": "minakshi_lld_chopra@rice.net",
+   "gender": "Female",
+   "status": "Active",
+   "created_at": "2021-02-02T03:50:06.35+05:30",
+   "updated_at": "2021-02-02T03:50:06.35+05:30"
+  }
+ ]
+}

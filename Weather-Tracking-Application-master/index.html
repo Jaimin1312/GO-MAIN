@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        th {
+            background-color: black;
+            color: blanchedalmond;
+        }
+        tr , td {
+            text-align: center;
+            font-size: 20px;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <br> <br> 
+                    <h1 class="text-center">Weather Information</h1>
+                    <br> <br> 
+                    <form action="/" method="POST">
+                        <div class="form-group">
+                            {{if not .Check}} 
+                            <h3 class="text-center" style="color:red;"> {{.Error.Message}} </h3>  <br>
+                            {{end}}
+                            <label><h3>Country or City or Place Name</h3></label>
+                            <input type="text" style="font-size: 20px;" name="country" required class="form-control" autocomplete="off" id="country" placeholder="Enter Country or City Name or Place Name">
+                        </div>
+                        <input type="submit" value="submit" class="btn btn-info btn-block">
+                    </form>
+                 </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <br><br> <br><br> <br><br>
+            {{if .Check}} 
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Region</th>
+                                <th>Country</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                                <th>Time Zone</th>
+                                <th>Localtime</th>
+                                <th>TempC</th>
+                                <th>TempF</th>
+                                <th>WindMph</th>
+                                <th>wind_kph</th>
+                                <th>wind_degree</th>
+                                <th>Condition</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>{{.Location.Name}}</td>
+                                <td>{{.Location.Region}}</td>
+                                <td>{{.Location.Country}}</td>
+                                <td>{{.Location.Lat}}</td>
+                                <td>{{.Location.Lon}}</td>
+                                <td>{{.Location.TzID}}</td>
+                                <td>{{.Location.Localtime}}</td>
+                                <td>{{.Current.TempC}} &#8451;</td>
+                                <td>{{.Current.TempF}} &#8457;</td>
+                                <td>{{.Current.WindMph}}</td>
+                                <td>{{.Current.WindKph}}</td>
+                                <td>{{.Current.WindDegree}}</td>
+                                <td><img src="{{.Current.Condition.Icon}}" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            {{end}}
+        </div>
+</body>
+</html>

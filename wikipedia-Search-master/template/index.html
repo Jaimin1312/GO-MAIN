@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+        
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Wikipedia, Search!</h1>
+                <p>
+                    <form action="/" method="POST">
+                        <div class="form-group">
+                            <label>Search</label>
+                           <input type="text" class="form-control" name="search" placeholder="Search Here...">
+                        </div>
+                        <input type="submit" value="search" class="btn btn-primary">
+                    </form>
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+
+                   
+            {{if .HasContent}}  
+                 <h3 style="text-align: justify;">{{.Content}}  </h3> 
+            {{end}}
+                 
+
+            {{if .HasSuggestion}}
+             <ul>
+                {{range $element := .Word}}
+                  <li style="font-size:20px ;"><a href="/suggetionresult?query={{$element}}">{{$element}}</a></li> 
+                  {{end}}
+              </ul>
+            {{end}}
+
+            {{if not .HasSuggestion}}  
+                    <h2 style="color: red;">{{.SuggestionNotfound}}</h2>
+            {{end}} 
+
+
+      
+        </div>  
+      
+       
+        
+</body>
+</html>

@@ -1,0 +1,97 @@
+{
+"code": 200,
+"meta": {
+"pagination": {
+"total": 14,
+"pages": 1,
+"page": 1,
+"limit": 20
+}
+},
+"data": [
+{
+"id": 1,
+"name": "Toys",
+"description": "Coaegresco aequitas capio utrum tamdiu doloremque consectetur.",
+"status": true
+},
+{
+"id": 2,
+"name": "Games",
+"description": "Cogito terminatio vae textilis vester aut vinum collum umbra.",
+"status": true
+},
+{
+"id": 3,
+"name": "Outdoors, Beauty \u0026 Music",
+"description": "Spoliatio baiulus sustineo absum sto quisquam adsum sumptus bestia confugo.",
+"status": true
+},
+{
+"id": 4,
+"name": "Outdoors \u0026 Home",
+"description": "Considero deputo suspendo crastinus bibo tergo vester bellicus.",
+"status": true
+},
+{
+"id": 5,
+"name": "Automotive \u0026 Garden",
+"description": "Subvenio voluntarius viriliter chirographum attollo vulgo.",
+"status": true
+},
+{
+"id": 6,
+"name": "Baby \u0026 Health",
+"description": "Colo ducimus non victus validus victoria inventore.",
+"status": true
+},
+{
+"id": 7,
+"name": "Industrial",
+"description": "Complectus concido timidus dolores ventosus tui tollo nulla sumo recusandae harum.",
+"status": true
+},
+{
+"id": 8,
+"name": "Movies \u0026 Computers",
+"description": "Animus somniculosus aequitas qui nihil solutio tonsor currus.",
+"status": true
+},
+{
+"id": 9,
+"name": "Games \u0026 Sports",
+"description": "Tubineus arx ambulo damno damnatio adinventitias xiphias copiose cometes benevolentia denuo.",
+"status": true
+},
+{
+"id": 10,
+"name": "Sports \u0026 Shoes",
+"description": "Soleo vobis voluptas dens crustulum caritas decens colligo.",
+"status": true
+},
+{
+"id": 11,
+"name": "Movies",
+"description": "Tener trucido templum utique velit.",
+"status": true
+},
+{
+"id": 12,
+"name": "Industrial, Kids \u0026 Games",
+"description": "Valetudo in abundans ad benevolentia vigilo colloco desidero speculum commodi confugo.",
+"status": true
+},
+{
+"id": 13,
+"name": "Tools",
+"description": "Agnitio succedo eos et uberrime rerum voluptas valens.",
+"status": true
+},
+{
+"id": 14,
+"name": "Baby, Garden \u0026 Tools",
+"description": "Denego tenetur torqueo calculus suadeo consequuntur vilitas aiunt tandem voluptas.",
+"status": true
+}
+]
+}
